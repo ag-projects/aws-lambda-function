@@ -32,7 +32,7 @@ public class InventoryFindFunctionsTest {
 
     @Test
     public void testInventoryFindFunctions() {
-        InventoryFindFunctions handler = new InventoryFindFunctions();
+        InventoryFindFunction handler = new InventoryFindFunction();
         Context ctx = createContext();
 
         String output = handler.handleRequest(input, ctx);
