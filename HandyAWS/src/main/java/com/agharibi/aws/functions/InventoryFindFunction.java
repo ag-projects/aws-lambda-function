@@ -2,13 +2,13 @@ package com.agharibi.aws.functions;
 
 import com.amazonaws.services.lambda.runtime.Context;
 import com.amazonaws.services.lambda.runtime.RequestHandler;
+import com.google.gson.Gson;
 import software.amazon.awssdk.core.ResponseInputStream;
 import software.amazon.awssdk.regions.Region;
 import software.amazon.awssdk.services.s3.S3Client;
 import software.amazon.awssdk.services.s3.model.GetObjectRequest;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class InventoryFindFunction implements RequestHandler<String, String> {
@@ -22,22 +22,18 @@ public class InventoryFindFunction implements RequestHandler<String, String> {
         
         GetObjectRequest objectRequest = GetObjectRequest.builder()
                 .bucket("handy-inventory-data-1201")
-                .key("s3testdata.txt")
+                .key("handy-tool-catalog.json")
                 .build();
 
         ResponseInputStream<?> objectData = s3Client.getObject(objectRequest);
         InputStreamReader inputStreamReader = new InputStreamReader(objectData);
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
 
-        String outputString = null;
-        try {
-            outputString = bufferedReader.readLine();
-            bufferedReader.close();
-        } catch (IOException e) {
-            context.getLogger().log("An exceptoin was generated when attempting to readLine() bufferedReader");
-        }
+        Product[] products = null;
+        Gson gson = new Gson();
+        products = gson.fromJson(bufferedReader, Product[].class);
 
-        return outputString;
+        return products[0].toString();
     }
 
 }
