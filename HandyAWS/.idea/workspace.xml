@@ -1,32 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="$USER_HOME$/Desktop/Spring project/giflib" value="2921001180000" />
-        <entry key="$USER_HOME$/Desktop/Spring project/giflib-hibernate-s1v3" value="2920123244000" />
-        <entry key="$USER_HOME$/Desktop/giflib" value="2926936771000" />
-        <entry key="$USER_HOME$/Desktop/springProject/giflib" value="2926936771000" />
-        <entry key="$USER_HOME$/Desktop/springSecurity/todoList" value="1460054666000" />
-        <entry key="$USER_HOME$/Desktop/todotoday" value="1460054666000" />
-        <entry key="$USER_HOME$/Downloads/giflib-hibernate-s1v3" value="2920123244000" />
-        <entry key="$USER_HOME$/Downloads/java-functional-programming/1-functional-programming-with-java-m1" value="1388970906000" />
-      </map>
-    </option>
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+  <component name="ChangeListManager">
+    <list default="true" id="60e10aab-db64-4868-b49a-2692b56071cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../interview/src/pkg01/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/BeerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/v2/BeerControllerV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/model/BeerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/model/CustomerDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/model/v2/BeerDtoV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/model/v2/BeerStyleEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/BeerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/BeerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/v2/BeerServiceV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/v2/BeerServiceV2Impl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-docker-aws/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-mvc-05/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-mvc-05/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-mvc-05/src/main/java/com/agharibi/recipeapp/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-mvc-05/src/main/java/com/agharibi/recipeapp/controllers/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-mvc-05/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-mvc-05/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-mvc-05/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-mvc-05/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/src/main/java/com/agharibi/security/SecurityApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/src/main/java/com/agharibi/security/persistence/InMemoryUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/src/main/java/com/agharibi/security/persistence/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/src/main/java/com/agharibi/security/web/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/src/main/java/com/agharibi/security/web/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-security/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../spring-security/src/test/java/com/agharibi/security/SecurityApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/READ.ME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/java/com/agharibi/thymeleaf/ThymeleafApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/java/com/agharibi/thymeleaf/controllers/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/java/com/agharibi/thymeleaf/controllers/ProductController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/static/css/bootstrap-3.3.4-dist/js/npm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/static/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/static/js/jquery-2.1.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/main/resources/templates/product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../thymeleaf-master/src/test/java/com/agharibi/thymeleaf/ThymeleafApplicationTests.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/aws/functions/InventoryFindFunctions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="165" />
+    <option name="x" value="226" />
+    <option name="y" value="145" />
     <option name="width" value="1411" />
     <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="functions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandyAWS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="functions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandyAWS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="functions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandyAWS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="functions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandyAWS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="functions" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandyAWS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575219882329" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575220325015" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -34,6 +154,18 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="aws" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
@@ -57,6 +189,97 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60e10aab-db64-4868-b49a-2692b56071cc" name="Default Changelist" comment="" />
+      <created>1575219777935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575219777935</updated>
+      <workItem from="1575219779137" duration="527000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="527000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="226" y="145" width="1411" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="aws.explorer" side_tool="true" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31163132" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="TCPMON" />
+      <window_info anchor="right" id="Connector for AWS Lambda" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/amazonaws/aws-lambda-java-core/1.1.0/aws-lambda-java-core-1.1.0-sources.jar!/com/amazonaws/services/lambda/runtime/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.project">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/agharibi/aws/functions/InventoryFindFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
