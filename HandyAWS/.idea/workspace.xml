@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60e10aab-db64-4868-b49a-2692b56071cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/aws/functions/HttpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/aws/functions/InventoryS3Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/aws/functions/InventoryInsertFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/agharibi/aws/functions/InventoryInsertFunctionTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../interview/src/pkg01/App.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/BeerController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/CustomerController.java" afterDir="false" />
@@ -19,8 +19,9 @@
       <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/v2/BeerServiceV2.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/service/v2/BeerServiceV2Impl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/com.amazonaws.eclipse.lambda.project.json" beforeDir="false" afterPath="$PROJECT_DIR$/.settings/com.amazonaws.eclipse.lambda.project.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/aws/functions/HttpProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/aws/functions/HttpProductResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/agharibi/aws/functions/InventoryFindFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/aws/functions/InventoryFindFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/agharibi/aws/functions/HttpProductResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/agharibi/aws/functions/HttpProductResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring-docker-aws/README.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring-mvc-05/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-mvc-05/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../spring-mvc-05/src/main/java/com/agharibi/recipeapp/controllers/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../spring-mvc-05/src/main/java/com/agharibi/recipeapp/controllers/IndexController.java" afterDir="false" />
@@ -259,7 +260,7 @@
       <workItem from="1575683697966" duration="33000" />
       <workItem from="1575687398409" duration="894000" />
       <workItem from="1575721148988" duration="1100000" />
-      <workItem from="1575735992215" duration="5411000" />
+      <workItem from="1575735992215" duration="6633000" />
     </task>
     <servers />
   </component>
@@ -292,11 +293,11 @@
     <state x="229" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1882.67.1882.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1575687629171" />
     <state x="-1659" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1884.67.1884.1057/0.23.1920.1057@-1884.67.1884.1057" timestamp="1575736896669" />
     <state x="201" y="123" width="1204" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog/33.23.1407.877@33.23.1407.877" timestamp="1575683653069" />
-    <state x="-1130" y="275" key="#com.intellij.ide.util.MemberChooser" timestamp="1575741792998">
+    <state x="-1130" y="275" key="#com.intellij.ide.util.MemberChooser" timestamp="1575743545435">
       <screen x="-1884" y="67" width="1884" height="1057" />
     </state>
     <state x="-1129" y="275" key="#com.intellij.ide.util.MemberChooser/-1882.67.1882.1057/0.23.1920.1057@-1882.67.1882.1057" timestamp="1575739712087" />
-    <state x="-1130" y="275" key="#com.intellij.ide.util.MemberChooser/-1884.67.1884.1057/0.23.1920.1057@-1884.67.1884.1057" timestamp="1575741792998" />
+    <state x="-1130" y="275" key="#com.intellij.ide.util.MemberChooser/-1884.67.1884.1057/0.23.1920.1057@-1884.67.1884.1057" timestamp="1575743545435" />
     <state x="424" y="196" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575683500089">
       <screen x="33" y="23" width="1407" height="877" />
     </state>

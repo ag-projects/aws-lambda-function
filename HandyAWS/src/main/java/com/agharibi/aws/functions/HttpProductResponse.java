@@ -7,7 +7,7 @@ import com.google.gson.Gson;
 public class HttpProductResponse {
 
     private String body;
-    private String statusCode;
+    private String statusCode = "200"; // default status
     private Map<String, String> headers = new HashMap<>();
 
     public HttpProductResponse() {
