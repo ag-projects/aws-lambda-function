@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60e10aab-db64-4868-b49a-2692b56071cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/agharibi/aws/functions/HttpQueryStringRequest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../interview/src/pkg01/App.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/BeerController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../micro-services/brewery/src/main/java/com/agharibi/brewery/web/controller/CustomerController.java" afterDir="false" />
@@ -79,14 +80,16 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="2.0.0" />
+        <entry key="$PROJECT_DIR$/.." value="3.0.0" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1UdPJgMqB4Jr240DANKE5GDGVY7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -94,6 +97,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575243106764" />
@@ -111,7 +115,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="aws" />
   </component>
-  <component name="RunManager" selected="AWS Lambda.[Local] com.agharibi.aws.functions.InventoryFindFunction">
+  <component name="RunManager" selected="AWS Lambda.[Remote] InventoryFindFunction">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -134,52 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="[Local] InventoryFindFunction" type="aws.lambda" factoryName="Local" nameIsGenerated="true">
+    <configuration name="[Remote] InventoryFindFunction" type="aws.lambda" factoryName="Remote" temporary="true" nameIsGenerated="true">
       <option name="credentialProviderId" value="profile:default" />
       <option name="regionId" value="us-east-2" />
-      <option name="environmentVariables">
-        <map />
-      </option>
-      <option name="handler" />
-      <option name="logicalFunctionName" />
-      <option name="memorySize" value="128" />
-      <option name="runtime" />
-      <option name="templateFile" value="$PROJECT_DIR$/src/main/java/com/agharibi/aws/functions/InventoryFindFunction.java" />
-      <option name="timeout" value="300" />
-      <option name="useTemplate" value="true" />
-      <option name="input" value="{&#10;  &quot;key1&quot;: &quot;value1&quot;,&#10;  &quot;key2&quot;: &quot;value2&quot;,&#10;  &quot;key3&quot;: &quot;value3&quot;&#10;}" />
+      <option name="functionName" value="InventoryFindFunction" />
+      <option name="input" value="&quot;&quot;" />
       <option name="inputIsFile" value="false" />
-      <sam>
-        <option name="additionalBuildArgs" value="" />
-        <option name="additionalLocalArgs" value="" />
-        <option name="buildInContainer" value="false" />
-        <option name="dockerNetwork" value="" />
-        <option name="skipImagePull" value="false" />
-      </sam>
-      <method v="2" />
-    </configuration>
-    <configuration name="[Local] com.agharibi.aws.functions.InventoryFindFunction" type="aws.lambda" factoryName="Local" temporary="true" nameIsGenerated="true">
-      <option name="credentialProviderId" value="profile:default" />
-      <option name="regionId" value="us-east-2" />
-      <option name="environmentVariables">
-        <map />
-      </option>
-      <option name="handler" value="com.agharibi.aws.functions.InventoryFindFunction" />
-      <option name="logicalFunctionName" />
-      <option name="memorySize" value="128" />
-      <option name="runtime" value="java8" />
-      <option name="templateFile" />
-      <option name="timeout" value="300" />
-      <option name="useTemplate" value="false" />
-      <option name="input" value="{&#10;  &quot;key1&quot;: &quot;value1&quot;,&#10;  &quot;key2&quot;: &quot;value2&quot;,&#10;  &quot;key3&quot;: &quot;value3&quot;&#10;}" />
-      <option name="inputIsFile" value="false" />
-      <sam>
-        <option name="additionalBuildArgs" value="" />
-        <option name="additionalLocalArgs" value="" />
-        <option name="buildInContainer" value="false" />
-        <option name="dockerNetwork" value="" />
-        <option name="skipImagePull" value="false" />
-      </sam>
       <method v="2" />
     </configuration>
     <configuration default="true" type="aws.lambda" factoryName="Remote">
@@ -188,6 +152,54 @@
       <option name="functionName" value="InventoryFindFunction" />
       <option name="input" />
       <option name="inputIsFile" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lambda-01" type="aws.lambda" factoryName="Local" temporary="true">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="us-east-2" />
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="handler" value="com.agharibi.aws.functions.InventoryFindFunction" />
+      <option name="logicalFunctionName" />
+      <option name="memorySize" value="1408" />
+      <option name="runtime" value="java8" />
+      <option name="templateFile" />
+      <option name="timeout" value="300" />
+      <option name="useTemplate" value="false" />
+      <option name="input" value="&quot;&quot;" />
+      <option name="inputIsFile" value="false" />
+      <sam>
+        <option name="additionalBuildArgs" value="" />
+        <option name="additionalLocalArgs" value="" />
+        <option name="buildInContainer" value="false" />
+        <option name="dockerNetwork" value="" />
+        <option name="skipImagePull" value="false" />
+      </sam>
+      <method v="2" />
+    </configuration>
+    <configuration name="lambda-02" type="aws.lambda" factoryName="Local">
+      <option name="credentialProviderId" value="profile:default" />
+      <option name="regionId" value="us-east-2" />
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="handler" value="InventoryFindFunction" />
+      <option name="logicalFunctionName" />
+      <option name="memorySize" value="1728" />
+      <option name="runtime" value="java8" />
+      <option name="templateFile" />
+      <option name="timeout" value="499" />
+      <option name="useTemplate" value="false" />
+      <option name="input" value="&quot;&quot;" />
+      <option name="inputIsFile" value="false" />
+      <sam>
+        <option name="additionalBuildArgs" value="" />
+        <option name="additionalLocalArgs" value="" />
+        <option name="buildInContainer" value="false" />
+        <option name="dockerNetwork" value="" />
+        <option name="skipImagePull" value="false" />
+      </sam>
       <method v="2" />
     </configuration>
     <configuration default="true" type="js.build_tools.grunt">
@@ -204,9 +216,15 @@
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="AWS Lambda.lambda-01" />
+      <item itemvalue="AWS Lambda.lambda-02" />
+      <item itemvalue="AWS Lambda.[Remote] InventoryFindFunction" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="AWS Lambda.[Local] com.agharibi.aws.functions.InventoryFindFunction" />
+        <item itemvalue="AWS Lambda.[Remote] InventoryFindFunction" />
+        <item itemvalue="AWS Lambda.lambda-01" />
       </list>
     </recent_temporary>
   </component>
@@ -241,12 +259,15 @@
       <workItem from="1575683697966" duration="33000" />
       <workItem from="1575687398409" duration="894000" />
       <workItem from="1575721148988" duration="1100000" />
-      <workItem from="1575735992215" duration="183000" />
+      <workItem from="1575735992215" duration="2632000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="368" y="23" key="#[Local]_InventoryFindFunction" timestamp="1575721202566">
@@ -257,15 +278,56 @@
       <screen x="33" y="23" width="1407" height="877" />
     </state>
     <state x="368" y="23" key="#[Local]_com.agharibi.aws.functions.InventoryFindFunction/33.23.1407.877@33.23.1407.877" timestamp="1575721343933" />
-    <state x="229" y="144" width="1204" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575687629171">
+    <state x="938" y="141" key="#[Local]_null" timestamp="1575737108949">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
+    <state x="938" y="141" key="#[Local]_null/-1884.67.1884.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1575737108949" />
+    <state x="578" y="246" key="#[Remote]_InventoryFindFunction" timestamp="1575737177920">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="578" y="246" key="#[Remote]_InventoryFindFunction/-1884.67.1884.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1575737177920" />
+    <state x="-1659" y="188" width="1204" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575736896669">
+      <screen x="-1884" y="67" width="1884" height="1057" />
+    </state>
     <state x="229" y="144" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1882.67.1882.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1575687629171" />
+    <state x="-1659" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1884.67.1884.1057/0.23.1920.1057@-1884.67.1884.1057" timestamp="1575736896669" />
     <state x="201" y="123" width="1204" height="734" key="#com.intellij.execution.impl.EditConfigurationsDialog/33.23.1407.877@33.23.1407.877" timestamp="1575683653069" />
+    <state x="-1130" y="275" key="#com.intellij.ide.util.MemberChooser" timestamp="1575738356400">
+      <screen x="-1884" y="67" width="1884" height="1057" />
+    </state>
+    <state x="-1130" y="275" key="#com.intellij.ide.util.MemberChooser/-1884.67.1884.1057/0.23.1920.1057@-1884.67.1884.1057" timestamp="1575738356400" />
     <state x="424" y="196" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575683500089">
       <screen x="33" y="23" width="1407" height="877" />
     </state>
     <state x="424" y="196" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/33.23.1407.877@33.23.1407.877" timestamp="1575683500089" />
+    <state x="499" y="141" key="#lambda-02" timestamp="1575737146926">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="499" y="141" key="#lambda-02/-1884.67.1884.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1575737146926" />
+    <state width="1725" height="223" key="GridCell.Tab.0.bottom" timestamp="1575738626346">
+      <screen x="-1884" y="67" width="1884" height="1057" />
+    </state>
+    <state width="1725" height="223" key="GridCell.Tab.0.bottom/-1884.67.1884.1057/0.23.1920.1057@-1884.67.1884.1057" timestamp="1575738626346" />
+    <state width="1363" height="223" key="GridCell.Tab.0.bottom/-1884.67.1884.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1575737197494" />
+    <state width="1725" height="223" key="GridCell.Tab.0.center" timestamp="1575738626346">
+      <screen x="-1884" y="67" width="1884" height="1057" />
+    </state>
+    <state width="1725" height="223" key="GridCell.Tab.0.center/-1884.67.1884.1057/0.23.1920.1057@-1884.67.1884.1057" timestamp="1575738626346" />
+    <state width="1363" height="223" key="GridCell.Tab.0.center/-1884.67.1884.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1575737197493" />
+    <state width="1725" height="223" key="GridCell.Tab.0.left" timestamp="1575738626345">
+      <screen x="-1884" y="67" width="1884" height="1057" />
+    </state>
+    <state width="1725" height="223" key="GridCell.Tab.0.left/-1884.67.1884.1057/0.23.1920.1057@-1884.67.1884.1057" timestamp="1575738626345" />
+    <state width="1363" height="223" key="GridCell.Tab.0.left/-1884.67.1884.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1575737197492" />
+    <state width="1725" height="223" key="GridCell.Tab.0.right" timestamp="1575738626346">
+      <screen x="-1884" y="67" width="1884" height="1057" />
+    </state>
+    <state width="1725" height="223" key="GridCell.Tab.0.right/-1884.67.1884.1057/0.23.1920.1057@-1884.67.1884.1057" timestamp="1575738626346" />
+    <state width="1363" height="223" key="GridCell.Tab.0.right/-1884.67.1884.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1575737197493" />
+    <state x="-1434" y="223" key="SettingsEditor" timestamp="1575737457856">
+      <screen x="-1884" y="67" width="1884" height="1057" />
+    </state>
+    <state x="-1434" y="223" key="SettingsEditor/-1884.67.1884.1057/0.23.1920.1057@-1884.67.1884.1057" timestamp="1575737457856" />
     <state x="-1445" y="293" width="670" height="676" key="search.everywhere.popup" timestamp="1575736435712">
       <screen x="-1883" y="67" width="1883" height="1057" />
     </state>

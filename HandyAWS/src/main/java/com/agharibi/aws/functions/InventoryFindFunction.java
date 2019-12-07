@@ -12,12 +12,16 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 
-public class InventoryFindFunction implements RequestHandler<String, String> {
+public class InventoryFindFunction implements RequestHandler<HttpQueryStringRequest, String> {
 
     @Override
-    public String handleRequest(String input, Context context) {
-        context.getLogger().log("Input: " + input);
-        return getProductById(102).toString();
+    public String handleRequest(HttpQueryStringRequest request, Context context) {
+        context.getLogger().log("Input: " + request);
+        String idAsString = request.getQueryStringParameters().get("id");
+        int productId = Integer.parseInt(idAsString);
+        Product product = getProductById(productId);
+
+        return product.toString();
     }
 
 	private Product getProductById(int prodId) {
