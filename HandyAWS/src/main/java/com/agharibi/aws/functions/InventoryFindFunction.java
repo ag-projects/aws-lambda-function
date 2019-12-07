@@ -10,16 +10,20 @@ import software.amazon.awssdk.services.s3.model.GetObjectRequest;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 
 public class InventoryFindFunction implements RequestHandler<String, String> {
 
     @Override
     public String handleRequest(String input, Context context) {
         context.getLogger().log("Input: " + input);
+        return getProductById(102).toString();
+    }
 
-        Region region = Region.US_EAST_2;
+	private Product getProductById(int prodId) {
+		Region region = Region.US_EAST_2;
         S3Client s3Client = S3Client.builder().region(region).build();
-        
+
         GetObjectRequest objectRequest = GetObjectRequest.builder()
                 .bucket("handy-inventory-data-1201")
                 .key("handy-tool-catalog.json")
@@ -33,7 +37,7 @@ public class InventoryFindFunction implements RequestHandler<String, String> {
         Gson gson = new Gson();
         products = gson.fromJson(bufferedReader, Product[].class);
 
-        return products[0].toString();
-    }
+        return Arrays.stream(products).filter(p -> p.getId() == prodId).findAny().orElse(null);
+	}
 
 }
