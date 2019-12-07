@@ -30,14 +30,14 @@ public class InventoryFindFunctionsTest {
         return ctx;
     }
 
-    @Test
-    public void testInventoryFindFunctions() {
-        InventoryFindFunction handler = new InventoryFindFunction();
-        Context ctx = createContext();
-
-        String output = handler.handleRequest(input, ctx);
-
-        // TODO: validate output here if needed.
-        Assert.assertEquals("Hello from Lambda!", output);
-    }
+//    @Test
+//    public void testInventoryFindFunctions() {
+//        InventoryFindFunction handler = new InventoryFindFunction();
+//        Context ctx = createContext();
+//
+//        String output = handler.handleRequest(input, ctx);
+//
+//        // TODO: validate output here if needed.
+//        Assert.assertEquals("Hello from Lambda!", output);
+//    }
 }
